@@ -31,5 +31,10 @@ How to use
 License
 -------
   Written and copyright Aaron Coombs. Do with it what you like. Please share/commit your changes.
+  
+Acknowledgements
+----------------
   Inspired by other people working on Home-Assistant.io
+  Portions borrowed from https://github.com/FreekingDean/insteon-hub
+  
   
