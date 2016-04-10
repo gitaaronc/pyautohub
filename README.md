@@ -35,6 +35,7 @@ License
 Acknowledgements
 ----------------
   Inspired by other people working on Home-Assistant.io
+  
   Portions borrowed from https://github.com/FreekingDean/insteon-hub
   
   
