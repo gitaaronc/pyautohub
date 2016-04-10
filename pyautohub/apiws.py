@@ -39,13 +39,11 @@ class AutohubResourceWS(object):
         if name in self._properties:
             return getattr(self, "_"+name)
         else:
-            print(name)
             raise AttributeError
 
     def __setattr__(self, name, value):
         if name in self._properties:
             if name in self._settables:
-                #print(value)
                 self.__dict__["_"+name] = value
             else:
                 raise "Property not settable"
@@ -55,7 +53,6 @@ class AutohubResourceWS(object):
     def _update_details(self, data):
         #Intakes dict of details, and sets necessary properties in device
         for api_name in self._properties:
-            print(data[api_name])
             if api_name in data:
                 setattr(self, "_" + api_name, data[api_name])
 
@@ -63,15 +60,7 @@ class AutohubResourceWS(object):
         return
 
     def save(self):
-        data = {}
-        for settable_name in self._settables:
-            data[settable_name] = getattr(self, settable_name)
-        try:
-            return self._api_iface.put(base_path + resource_name + "/" + str(self._resource_id))
-        except APIError as e:
-            print("API error: ")
-            for key,value in e.data.items():
-                print(str(key) + ": " + str(value))
+        return
 
     @property
     def json(self):
