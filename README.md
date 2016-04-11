@@ -5,10 +5,8 @@ Lightweight Python 3 module to communication with Autohub Server.
 Dependencies
 ------------
 pyWeMo depends on Python package requests.
-
-    - json
-    
-    - websocket-client
+  - json
+  - websocket-client
     
 Autohub Server
 --------------
