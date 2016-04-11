@@ -5,8 +5,18 @@ Lightweight Python 3 module to communication with Autohub Server.
 Dependencies
 ------------
 pyWeMo depends on Python package requests.
+
     - json
+    
     - websocket-client
+    
+Autohub Server
+--------------
+ *Autohub server has not yet been released.
+ 
+ What is Autohub server?
+   - Autohub server is a linux system daemon used to communicate with Insteon PLM's and Insteon HUBs.
+   - Autohub server does not require the Insteon API "cloud" server or an Insteon API key.
     
 How to use
 ----------
