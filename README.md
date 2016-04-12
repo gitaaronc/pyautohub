@@ -1,6 +1,6 @@
 pyAutohub
 ======
-Lightweight Python 3 module to communication with Autohub Server.
+Lightweight Python 3 module to communicate with an Autohub Server.
 
 Dependencies
 ------------
@@ -22,7 +22,7 @@ How to use
     >> import pyautohub
     >> autohub = pyautohub.AutohubWS()
     >> autohub.start()
-    This will make the initial connection to the Authub server and rerieve a list of devices.
+    This will make the initial connection to the Authub server and retrieve a list of devices.
     
     >> for k, v in autohub.devices.items():
     >>   print(v.device_address_)
