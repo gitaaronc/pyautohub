@@ -10,7 +10,7 @@ pyWeMo depends on Python package requests.
     
 Autohub Server
 --------------
- *Autohub server has not yet been released.
+ https://github.com/gitaaronc/autohubpp
  
  What is Autohub server?
    - Autohub server is a linux system daemon used to communicate with Insteon PLM's and Insteon HUBs.
