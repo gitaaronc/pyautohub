@@ -35,7 +35,7 @@ class ContactWS(AutohubResourceWS):
 class DeviceWS(AutohubCommandableWS):
     resource_name="devices"
     _settables = (
-        'button_on_level', 'button_on_ramp_rate', 'enable_blink_on_traffic',
+        'device_name_', 'button_on_level', 'button_on_ramp_rate', 'enable_blink_on_traffic',
 		'enable_led', 'enable_load_sense', 'enable_programming_lock', 'enable_resume_dim', 
 		'x10_house_code', 'x10_unit_code'
     )

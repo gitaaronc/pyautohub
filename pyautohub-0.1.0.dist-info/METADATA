@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: pyautohub
+Version: 0.4.1
+Summary: Access WeMo switches using their SOAP API
+Home-page: http://github.com/gitaaronc/pyautohub
+Author: Aaron Coombs
+Author-email: aaronc@shaw.ca
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+
