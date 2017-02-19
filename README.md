@@ -20,7 +20,7 @@ How to use
 ----------
 
     >> import pyautohub
-    >> autohub = pyautohub.AutohubWS()
+    >> autohub = pyautohub.AutohubWS("192.168.4.111",9000)
     >> autohub.start()
     This will make the initial connection to the Authub server and retrieve a list of devices.
     

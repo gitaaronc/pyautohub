@@ -13,9 +13,9 @@ LOG = logging.getLogger(__name__)
 class AutohubWS(object):
 
 
-  def __init__(self):
+  def __init__(self, ip_addr, port):
     self._ws = None
-    self._host = "ws://192.168.4.128:8080/"
+    self._host = "ws://" + str(ip_addr) + ":" + str(port)
     self._ws_thread = None
     self.devices = {}
     self.func_map_ = collections.defaultdict(list)
